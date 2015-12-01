@@ -12,4 +12,11 @@ public class FileManagerEvent extends EventObject {
         super(o);
         this.cause = cause;
     }
+
+
+
+    public String getCause ()
+    {
+        return cause;
+    }
 }
